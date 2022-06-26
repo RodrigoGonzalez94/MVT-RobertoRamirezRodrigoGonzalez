@@ -10,8 +10,8 @@
     <h1>Informacion de Familiares: </h1>
     <p>
         <ul>
-            {% for objeto in lista_objetos %}
-            <li>{{objeto.nombre}}</li>
+            {% for familiares in lista_familiares %}
+            <li>Nombre: {{familiares.nombre}} - Edad: {{familiares.edad}} - Fecha de nacimiento: {{familiares.fecha_nacimiento}}</li> 
             {% endfor %}
         </ul>
     </p>
