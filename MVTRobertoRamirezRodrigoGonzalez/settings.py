@@ -54,7 +54,7 @@ ROOT_URLCONF = 'MVTRobertoRamirezRodrigoGonzalez.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r'C:\Users\figor\OneDrive\Escritorio\31085\Proyectos\MVT-RobertoRamirezRodrigoGonzalez\templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
